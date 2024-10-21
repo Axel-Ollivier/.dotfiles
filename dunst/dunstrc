@@ -1,0 +1,14 @@
+[urgency_low]
+    background = "#333333"
+    foreground = "#888888"
+    frame = "#444444"
+
+[urgency_normal]
+    background = "#444444"
+    foreground = "#ffffff"
+    frame = "#555555"
+
+[urgency_critical]
+    background = "#900000"
+    foreground = "#ffffff"
+    frame = "#ff0000"

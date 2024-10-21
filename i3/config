@@ -221,6 +221,11 @@ exec --no-startup-id dunst &
 # network tray icon
 exec --no-startup-id nm-applet &
 
+# touchscreens mapping (yes, on i3, this is a fucking joke)
+exec --no-startup-id xinput map-to-output 9 eDP-1
+exec --no-startup-id xinput map-to-output 13 DP-1
+
+
 # i3bar
 bar {
     status_command i3status -c ~/.config/i3status/config
